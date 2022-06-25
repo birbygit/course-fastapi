@@ -32,5 +32,5 @@ app.include_router(vote.router)
 #FastAPI Path Operation == Route
 @app.get("/") # decorator '@' + app reference + http method-> transform function in API 
 def root():  #function plain python  -- name doesn't matter
-    return {"message": "Welcome to my APIv3"} # py dictionary -> JSON
+    return {"message": "Welcome to my APIv3 - now on Docker"} # py dictionary -> JSON
 
